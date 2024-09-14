@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@media screen and (min-width:992px) {
+    h1{
+        text-align: center;
+        font-family: 'calibri';
+        position: relative;
+        top: 40px;
+    }
+    .chicken{
+        width: 25%;
+        height: auto;
+        border: 3px solid #000;
+        background-color: lightgray;
+    }
+    .chicken h3{
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+        border: 3px solid #000;
+        border-top: none;
+        border-right: none;
+        margin-left: 70%;
+        font-family: 'calibri';
+        background-color: pink;
+    }
+    .beef{
+        width: 25%;
+        height: auto;
+        border: 3px solid #000;
+        background-color: lightgray;
+    }
+    .beef h3{
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+        border: 3px solid #000;
+        border-top: none;
+        border-right: none;
+        margin-left: 70%;
+        font-family: 'calibri';
+        background-color: #ca4141;
+        color: #fff;
+    }
+    .sushi{
+        width: 25%;
+        height: auto;
+        border: 3px solid #000;
+        background-color: lightgray;
+    }
+    .sushi h3{
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+        border: 3px solid #000;
+        border-top: none;
+        border-right: none;
+        margin-left: 70%;
+        font-family: 'calibri';
+        background-color: #F0E68C;
+    }
+    .FoodMenu{
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+@media  screen and (min-width:768px) and (max-width:991px){
+    h1{
+        text-align: center;
+        font-family: 'calibri';
+    }
+    .chicken{
+        width: 40%;
+        height: auto;
+        border: 3px solid #000;
+        background-color: lightgray;
+    }
+    .chicken h3{
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+        border: 3px solid #000;
+        border-top: none;
+        border-right: none;
+        margin-left: 70%;
+        font-family: 'calibri';
+        background-color: pink;
+    }
+    .beef{
+        width: 40%;
+        height: auto;
+        border: 3px solid #000;
+        background-color: lightgray;
+    }
+    .beef h3{
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+        border: 3px solid #000;
+        border-top: none;
+        border-right: none;
+        margin-left: 70%;
+        font-family: 'calibri';
+        background-color: #ca4141;
+        color: #fff;
+    }
+    .sushi{
+        margin-top: 12px;
+        width: 86.5vw;
+        height: 120px;
+        border: 3px solid #000;
+        background-color: lightgray;
+    }
+    .sushi h3{
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+        border: 3px solid #000;
+        border-top: none;
+        border-right: none;
+        margin-left: 70%;
+        font-family: 'calibri';
+        background-color: #F0E68C;
+    }
+    .FoodMenu{
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:767px) {
+    h1{
+        text-align: center;
+        font-family: 'calibri';
+    }
+    .chicken{
+        width: 35%;
+        height: auto;
+        border: 3px solid #000;
+        background-color: lightgray;
+        margin: 10px;
+    }
+    .chicken h3{
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+        border: 3px solid #000;
+        border-top: none;
+        border-right: none;
+        margin-left: 70%;
+        font-family: 'calibri';
+        background-color: pink;
+    }
+    .beef{
+        width: 35%;
+        height: auto;
+        border: 3px solid #000;
+        background-color: lightgray;
+        margin: 10px;
+    }
+    .beef h3{
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+        border: 3px solid #000;
+        border-top: none;
+        border-right: none;
+        margin-left: 70%;
+        font-family: 'calibri';
+        background-color: #ca4141;
+        color: #fff;
+    }
+    .sushi{
+        width: 35%;
+        height: auto;
+        border: 3px solid #000;
+        background-color: lightgray;
+        margin: 10px;
+    }
+    .sushi h3{
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+        border: 3px solid #000;
+        border-top: none;
+        border-right: none;
+        margin-left: 70%;
+        font-family: 'calibri';
+        background-color: #F0E68C;
+    }
+    .FoodMenu{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
